@@ -1,0 +1,594 @@
+/* CSS for Navbar */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Logo on the left */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Dropdown Menu */
+.navbar-nav .dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .dropdown-item {
+    font-size: 14px;
+    color: #333;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Get Started Button */
+.navbar-nav .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.navbar-nav .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar Styling for Smaller Screens */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* Get Started Button on smaller screens */
+    .navbar-nav .btn-primary {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+/* CSS for Navbar */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Logo on the left */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Dropdown Menu */
+.navbar-nav .dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .dropdown-item {
+    font-size: 14px;
+    color: #333;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Get Started Button */
+.navbar-nav .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.navbar-nav .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar Styling for Smaller Screens */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* Get Started Button on smaller screens */
+    .navbar-nav .btn-primary {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+/* Hero Section */
+.carousel-item {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay with transparency */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.carousel-caption .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Adjust indicators */
+.carousel-indicators [data-bs-target] {
+    background-color: #007bff;
+}
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.nav-pills .nav-link {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.tab-content .tab-pane h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tab-content .tab-pane p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.tab-content .tab-pane .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.tab-content .tab-pane .btn:hover {
+    background-color: #0056b3;
+}
+
+#about .col-md-6 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Our Services Section */
+#services {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#services p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card .bi {
+    color: #007bff;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 20px;
+    }
+}
+/* Our Projects Section */
+#projects {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.nav-pills .nav-link {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.project-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+.project-card .overlay p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+/* Dynamic Image Positioning */
+.row .col-md-4:nth-child(1) img {
+    transform: translateY(10px);
+}
+
+.row .col-md-4:nth-child(2) img {
+    transform: translateY(-10px);
+}
+
+.row .col-md-4:nth-child(3) img {
+    transform: translateY(10px);
+}
+
+.row .col-md-4:nth-child(4) img {
+    transform: translateY(-10px);
+}
+
+.row .col-md-4:nth-child(5) img {
+    transform: translateY(10px);
+}
+
+.row .col-md-4:nth-child(6) img {
+    transform: translateY(-10px);
+}
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #343a40;
+    text-align: left; /* Ensures labels are aligned left */
+}
+
+.form-control {
+    border-radius: 8px;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.map-container iframe {
+    border-radius: 15px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    .card-body {
+        padding: 20px;
+    }
+    .form-label {
+        font-size: 1rem;
+    }
+}
+/* Add custom styles for the carousel caption */
+.carousel-caption {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Style for the overlay in carousel */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive design for the image on the 'About Us' section */
+#about img {
+    width: 100%;
+    height: auto;
+}
+
+/* Card styling for services */
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Adjust text styles for readability */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+}
+/* Navbar Link Hover Animation */
+.navbar-nav .nav-link {
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #007bff;
+    bottom: 0;
+    left: -100%;
+    transition: left 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    left: 0;
+}
+/* Hero Section Text Animation */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.carousel-caption h1 {
+    animation: slideIn 1.5s ease-out;
+}
+
+.carousel-caption p {
+    animation: slideIn 2s ease-out;
+}
+/* Hover Effect on Project Images */
+.project-card img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.project-card .overlay {
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+/* Card Hover Effect */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+/* Button Hover Animation */
+.navbar-nav .btn-primary {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .btn-primary:hover {
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
+/* Fade In Animation */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
